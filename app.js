@@ -9,7 +9,7 @@ const app=express();
 const mongoose=require("mongoose");
 const path = require("path");
 const methodoverride=require("method-override");
-const ejsmate=require("ejs-Mate");
+const ejsmate=require("ejs-mate");
 const ExpressError=require("./utils/ExpressError.js");
 const {listingschema,reviewSchema}=require("./schema.js");
 app.set("view engine", "ejs")
